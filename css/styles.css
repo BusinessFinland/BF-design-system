@@ -1,0 +1,27 @@
+.btn {
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding: 0.75rem 1rem;
+  background-color: var(--wst-gray);
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.btn:active {
+  opacity: 1;
+}
+
+.btn_warning {
+  color: white;
+  background-color: var(--wst-red);
+}
+
+.btn_info {
+  color: white;
+  background-color: var(--wst-blue);
+}

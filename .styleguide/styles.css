@@ -1,0 +1,119 @@
+:root {
+  --wst-black: #161616;
+
+  --wst-gray: #e8e8e8;
+  --wst-darkgray: #9e9e9e;
+  --wst-lightgray: #f1f0f0;
+
+  --wst-blue: #00a8e8;
+
+  --wst-red: #ff534b;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  min-height: 100%;
+  color: var(--black);
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
+    Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  overscroll-behavior-y: none;
+}
+
+#root {
+  height: auto;
+  min-height: 100%;
+}
+
+a {
+  color: var(--wst-blue);
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+pre {
+  padding: 1rem;
+  overflow-x: scroll;
+
+  border: 1px solid var(--wst-gray);
+  background-color: var(--wst-lightgray);
+}
+
+h1 {
+  margin-bottom: 2rem;
+}
+
+h2,
+h3,
+h4 {
+  margin-top: 2.5rem;
+}
+
+p {
+  margin: 2rem 0;
+  line-height: 1.4;
+}
+
+.wst--sidebar {
+  position: fixed;
+  overflow-y: scroll;
+
+  height: 100%;
+  width: 275px;
+
+  padding: 1.5rem 1rem;
+
+  background-color: var(--wst-lightgray);
+  border-right: 1px solid var(--wst-gray);
+}
+
+.wst--page {
+  display: grid;
+  padding: 0 3rem;
+  grid-template-columns: 275px auto;
+}
+
+.wst--body {
+  margin: 0 auto;
+  max-width: 1140px;
+  grid-column-start: 2;
+}
+
+.wst--navlink {
+  margin: 1rem 0;
+}
+
+.wst--navcategory {
+  margin: 2rem;
+}
+
+.wst--caterogyheader {
+  font-size: 4.209rem;
+  color: var(--wst-red);
+  margin-top: 3rem;
+}
+
+.wst--navheader {
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+.wst--pagecontent img {
+  max-height: 300px;
+  display: block;
+  margin: 3rem auto;
+}
+
+.wst--componentbody {
+  margin: 3rem 0;
+}

@@ -5,14 +5,15 @@
   "scripts": {
     "start": "npm-run-all --parallel watch:nodemon watch:webpack",
     "build": "webpack --mode production",
-    "watch:nodemon": "nodemon .styleguide/bin --ext js,md,css",
-    "watch:webpack": "webpack-dev-server --open --mode development"
+    "watch:webpack": "webpack-dev-server --open --mode development",
+    "watch:nodemon": "nodemon .styleguide/bin --ext js,md,css --exec babel-node"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.7.2",
+    "@babel/node": "^7.7.0",
     "@babel/preset-env": "^7.7.1",
     "@babel/preset-react": "^7.7.0",
     "babel-loader": "^8.0.6",
@@ -31,6 +32,7 @@
   },
   "dependencies": {
     "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react-dom": "^16.12.0",
+    "react-router-dom": "^5.1.2"
   }
 }

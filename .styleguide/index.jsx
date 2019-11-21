@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+
 import {
-  getAnchor,
   getPageName,
   importAllImages,
   isParentCategory,
@@ -38,25 +39,32 @@ function Styleguide({ pages }) {
 
   const renderNavContent = page => {
     const pageName = getPageName(page.fileName);
-    const navAnchor = getAnchor(pageName);
 
     return (
       <div key={page.fileName} className='wst--navlink'>
-        <a href={navAnchor}>{capitalizeFirstLetter(replaceDashWithSpace(pageName))}</a>
+        <Link to={page.path}>{capitalizeFirstLetter(replaceDashWithSpace(pageName))}</Link>
       </div>
     );
   };
 
-  const pageBodyContent = Object.keys(pages).map(category => {
-    const categoryName = capitalizeFirstLetter(category);
+  const pageBodyContent = (
+    <Switch>
+      {Object.keys(pages).map(category => {
+        const categoryName = capitalizeFirstLetter(category);
 
-    return (
-      <div key={category} className='wst--pagecontent'>
-        {!isParentCategory(category) && <h1 className='wst--caterogyheader'>{categoryName}</h1>}
-        {pages[category].map(page => renderPageContent(page))}
-      </div>
-    );
-  });
+        return pages[category].map(page => (
+          <Route exact path={page.path} key={category}>
+            <div className='wst--pagecontent'>
+              {!isParentCategory(category) && (
+                <h1 className='wst--caterogyheader'>{categoryName}</h1>
+              )}
+              {renderPageContent(page)}
+            </div>
+          </Route>
+        ));
+      })}
+    </Switch>
+  );
 
   const pageNavContent = Object.keys(pages).map(category => {
     const categoryName = capitalizeFirstLetter(category);
@@ -70,13 +78,11 @@ function Styleguide({ pages }) {
   });
 
   return (
-    <>
+    <Router>
       <div className='wst--sidebar'>{pageNavContent}</div>
       <div className='wst--page'>
-        <div className='wst--body'>
-          <div>{pageBodyContent}</div>
-        </div>
+        <div className='wst--body'>{pageBodyContent}</div>
       </div>
-    </>
+    </Router>
   );
 }

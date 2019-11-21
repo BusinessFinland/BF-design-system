@@ -1,6 +1,7 @@
-const fs = require('fs');
-const path = require('path');
-const htmlRenderer = require('./renderers/htmlRenderer');
+import fs from 'fs';
+import path from 'path';
+import { getPageName } from '../utils';
+import htmlRenderer from './renderers/htmlRenderer';
 
 // Handles only two levels deep
 // Enhance if deep nesting needed
@@ -18,9 +19,10 @@ function createPages(filesPath = '', pages = [], folderName = 'parent') {
       });
 
       pages.push({
-        fileName,
         folderName,
-        body: htmlRenderer.render(fileContent)
+        fileName: fileName.toLowerCase(),
+        body: htmlRenderer.render(fileContent),
+        path: pages.length ? `/${getPageName(fileName).toLowerCase()}` : '/'
       });
     }
   });

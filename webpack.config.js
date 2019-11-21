@@ -3,6 +3,11 @@ const HtmlWebPackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: path.resolve(__dirname, '.styleguide', 'index.jsx'),
+  devServer: {
+    historyApiFallback: true,
+    contentBase: './',
+    hot: true
+  },
   module: {
     rules: [
       {

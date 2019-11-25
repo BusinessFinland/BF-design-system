@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-import { getPageName, isParentCategory, replaceDashWithSpace } from '../../utils';
+import { getPageName, replaceDashWithSpace } from '../../utils';
 
 import './styles.css';
 

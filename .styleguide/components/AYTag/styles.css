@@ -1,0 +1,50 @@
+.wst--ay {
+  padding: 2rem;
+  font-size: 0.8rem;
+  margin-bottom: 2rem;
+  font-family: monospace;
+  border: 1px solid var(--wst-lightgray);
+}
+
+.wst--ay-title {
+  display: flex;
+  align-items: center;
+}
+
+.wst--ay-description {
+  color: var(--wst-gray);
+  padding-top: 1rem;
+}
+
+.wst--ay-tag {
+  padding: 0.25rem 0.5rem;
+  margin-right: 1rem;
+  border-radius: 1rem;
+
+  color: white;
+  font-weight: 400;
+  text-transform: uppercase;
+  background-color: var(--wst-green);
+}
+
+.wst--ay-summary {
+  padding-top: 0.5rem;
+}
+
+.wst--ay-code {
+  display: inline-block;
+  margin-top: 2rem;
+}
+
+.wst--ay-tag_loading {
+  color: var(--wst-black);
+  background-color: var(--wst-lightgray);
+}
+
+.wst--ay-tag_serious {
+  background-color: var(--wst-red);
+}
+
+.wst--ay-tag_moderate {
+  background-color: var(--wst-orange);
+}

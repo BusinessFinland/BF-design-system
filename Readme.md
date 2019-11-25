@@ -1,6 +1,5 @@
 TODO:
 
-- Violations design
 - Remove Pages.json
 - Push to git
 

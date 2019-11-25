@@ -1,13 +1,14 @@
 {
   "name": "wst-starter",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "repository": "https://github.com/wonna-fi/html-styleguide-starter",
   "description": "HTML Styleguide Starter",
   "scripts": {
     "start": "npm-run-all --parallel watch:nodemon watch:webpack",
     "build": "webpack --mode production",
     "watch:webpack": "webpack-dev-server --open --mode development",
-    "watch:nodemon": "nodemon .styleguide/bin --ext js,md,css --exec babel-node"
+    "watch:nodemon": "nodemon .styleguide/bin --ext js,md,css --exec babel-node",
+    "postinstall": "babel-node .styleguide/bin"
   },
   "keywords": [],
   "author": "",

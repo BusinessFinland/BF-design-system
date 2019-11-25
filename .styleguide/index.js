@@ -20,9 +20,6 @@ import '../css/styles.css';
 // Import all images so webpack can process them
 importAllImages();
 
-// FIXME:
-// Should be an optional import because it is dynamically generated page
-// When fixed, remove it from git
 import pages from './pages.json';
 
 function Styleguide({ pagesByFolder }) {

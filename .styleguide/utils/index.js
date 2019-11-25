@@ -11,21 +11,6 @@ export function getPageName(fileName) {
   return pageName;
 }
 
-export function getPagesByCategory(pages) {
-  const pagesByCategory = {};
-
-  pages.forEach(page => {
-    const { folderName } = page;
-    if (pagesByCategory[folderName]) {
-      pagesByCategory[folderName].push(page);
-    } else {
-      pagesByCategory[folderName] = [page];
-    }
-  });
-
-  return pagesByCategory;
-}
-
 export function getAnchor(pageName) {
   return `#${pageName}`;
 }

@@ -5,7 +5,7 @@ import htmlRenderer from './renderers/htmlRenderer';
 
 // Handles only two levels deep
 // Enhance if deep nesting needed
-function createPages(filesPath = '', pages = [], folderName = 'parent') {
+function createPages(filesPath = '', pages = {}, folderName = 'parent') {
   const fileNames = fs.readdirSync(filesPath);
 
   fileNames.forEach(fileName => {
@@ -18,11 +18,15 @@ function createPages(filesPath = '', pages = [], folderName = 'parent') {
         encoding: 'UTF-8'
       });
 
-      pages.push({
+      if (!pages[folderName]) {
+        pages[folderName] = [];
+      }
+
+      pages[folderName].push({
         folderName,
         fileName: fileName.toLowerCase(),
         body: htmlRenderer.render(fileContent),
-        path: pages.length ? `/${getPageName(fileName).toLowerCase()}` : '/'
+        path: pages.parent && !pages.parent.length ? '/' : `/${getPageName(fileName).toLowerCase()}`
       });
     }
   });

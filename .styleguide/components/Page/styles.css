@@ -1,0 +1,12 @@
+.wst--page {
+  display: grid;
+  padding: 0 3rem;
+  grid-template-columns: 275px auto;
+}
+
+.wst--page-body {
+  margin: 3rem auto;
+  max-width: 1140px;
+  grid-column-start: 2;
+  transform: translateY(70px);
+}

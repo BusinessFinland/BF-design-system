@@ -2,7 +2,7 @@ const path = require('path');
 const HtmlWebPackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  entry: path.resolve(__dirname, '.styleguide', 'index.jsx'),
+  entry: path.resolve(__dirname, '.styleguide', 'index.js'),
   devServer: {
     historyApiFallback: true,
     contentBase: './',
@@ -30,7 +30,7 @@ module.exports = {
         use: ['style-loader', 'css-loader']
       },
       {
-        test: /\.(png|jpe?g|gif)$/i,
+        test: /\.(png|jpe?g|gif|svg)$/i,
         loader: 'file-loader',
         options: {
           name: '[path][name].[ext]'

@@ -1,11 +1,14 @@
-.btn {
+.btn,
+.btn_primary {
   border: 0;
+  color: white;
   outline: none;
   cursor: pointer;
+  min-width: 100px;
   font-size: 0.8rem;
   font-weight: 500;
   padding: 0.75rem 1rem;
-  background-color: var(--wst-gray);
+  background-color: var(--wst-darkred);
 }
 
 .btn:hover {
@@ -16,12 +19,10 @@
   opacity: 1;
 }
 
-.btn_warning {
-  color: white;
-  background-color: var(--wst-red);
+.btn_info {
+  background-color: var(--wst-blue);
 }
 
-.btn_info {
-  color: white;
-  background-color: var(--wst-blue);
+.btn_success {
+  background-color: var(--wst-green);
 }

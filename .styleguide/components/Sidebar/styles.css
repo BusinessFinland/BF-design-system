@@ -8,6 +8,7 @@
 
   text-transform: capitalize;
   background-color: var(--bf-color-brand-primary);
+  z-index: 1;
 }
 
 .bf--sidebar-category {

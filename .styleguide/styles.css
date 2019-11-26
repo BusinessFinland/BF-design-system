@@ -89,3 +89,19 @@ h4 {
 h5 {
   font-size: var(--bf-header-5);
 }
+
+/* Helpers */
+
+.bf-example-block {
+  display: inline-block;
+  padding: var(--bf-spacing-lg) 0;
+}
+
+.bf-example-block > div {
+  margin: 0 var(--bf-spacing-lg);
+}
+
+.bf-example-block_blue {
+  background-color: var(--bf-color-brand-primary);
+  padding: var(--bf-spacing-lg) var(--bf-spacing-sm);
+}

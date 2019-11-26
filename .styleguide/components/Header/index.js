@@ -8,7 +8,12 @@ const Header = ({ version = '', description = '' }) => {
     <header className='bf--header'>
       <div className='bf--header-meta'>
         <div className='bf--logo'>
-          <NavLink to='/'>Business Finland</NavLink>
+          <NavLink to='/'>
+            <div class='bf-logo bf-logo_sm'>
+              <div class='bf-logo-business'>Business</div>
+              <div class='bf-logo-finland'>Finland</div>
+            </div>
+          </NavLink>
         </div>
         <div className='bf--meta-description'>{description}</div>
       </div>

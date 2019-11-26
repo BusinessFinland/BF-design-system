@@ -19,7 +19,6 @@
   display: block;
   text-decoration: none;
   padding: var(--bf-spacing-lg) 0;
-  margin: var(--bf-spacing-lg) 0;
 
   color: var(--bf-color-white);
   background-color: transparent;
@@ -29,6 +28,7 @@
 .bf--sidebar-title {
   font-weight: 600;
   color: var(--bf-color-white);
+  margin-bottom: var(--bf-spacing-lg);
 }
 
 .bf--sidebar-title,

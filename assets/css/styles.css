@@ -115,6 +115,35 @@ BF styles
   text-transform: uppercase;
 }
 
+/* Logo */
+/* Regular Logo */
+.bf-logo {
+  line-height: 1.1;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: var(--bf-header-3);
+  color: var(--bf-color-brand-primary);
+}
+
+.bf-logo-finland {
+  font-weight: var(--bf-font-weight-bold);
+}
+
+/* Secondary Logo */
+.bf-logo_secondary {
+  color: var(--bf-color-white);
+}
+
+/* Medium Logo */
+.bf-logo_md {
+  font-size: var(--bf-header-4);
+}
+
+/* Small Logo */
+.bf-logo_sm {
+  font-size: var(--bf-header-5);
+}
+
 /* Custom Fonts */
 @font-face {
   font-family: 'Finlandica';

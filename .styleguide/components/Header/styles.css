@@ -30,6 +30,6 @@
 
 .bf--meta-version,
 .bf--meta-description {
-  padding: 0 var(--bf-spacing-xl);
+  padding: 0 var(--bf-spacing-xxl);
   color: var(--bf-color-darkgray);
 }

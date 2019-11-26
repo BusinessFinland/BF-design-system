@@ -28,8 +28,8 @@ const Page = ({ page }) => {
   return (
     <main className={classNames}>
       <div className='bf--page-body'>
-        <div className='bf--page-bodyHTML' dangerouslySetInnerHTML={{ __html: page.body }} />
         <AYTag violations={violations} />
+        <div className='bf--page-bodyHTML' dangerouslySetInnerHTML={{ __html: page.body }} />
       </div>
     </main>
   );

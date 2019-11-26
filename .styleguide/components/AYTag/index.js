@@ -6,20 +6,20 @@ const AYTag = ({ violations }) => {
   const renderTag = (status = '', message = '', description = '') => {
     return (
       <>
-        <div className='wst--ay-title'>
-          <div className={`wst--ay-tag wst--ay-tag_${status.toLowerCase()}`}>{status}</div>
-          <div className='wst--ay-message'>{message}</div>
+        <div className='bf--ay-title'>
+          <div className={`bf--ay-tag bf--ay-tag_${status.toLowerCase()}`}>{status}</div>
+          <div className='bf--ay-message'>{message}</div>
         </div>
-        {description && <div className='wst--ay-description'>{description}</div>}
+        {description && <div className='bf--ay-description'>{description}</div>}
       </>
     );
   };
 
   if (!violations)
-    return <div className='wst--ay'>{renderTag('Loading', 'Checking accessability')}</div>;
+    return <div className='bf--ay'>{renderTag('Loading', 'Checking accessability')}</div>;
 
   if (violations && !violations.length)
-    return <div className='wst--ay'>{renderTag('Passed', 'All accessibility tests passed')}</div>;
+    return <div className='bf--ay'>{renderTag('Passed', 'All accessibility tests passed')}</div>;
 
   return violations.map(violation => {
     const violationHelp = (
@@ -29,14 +29,14 @@ const AYTag = ({ violations }) => {
     );
 
     return (
-      <div key={violation.id} className='wst--ay'>
+      <div key={violation.id} className='bf--ay'>
         {renderTag(violation.impact, violationHelp, violation.description)}
         <div>
           {violation.nodes.map(node => {
             return (
               <div key={node.html}>
-                <code className='wst--ay-code'>{node.html}</code>
-                <div className='wst--ay-summary'>{node.failureSummary}</div>
+                <code className='bf--ay-code'>{node.html}</code>
+                <div className='bf--ay-summary'>{node.failureSummary}</div>
               </div>
             );
           })}

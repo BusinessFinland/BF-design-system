@@ -19,8 +19,8 @@ export function importAllImages() {
   function importAll(r) {
     return r.keys().forEach(r);
   }
-
-  importAll(require.context('../../images/', false, /\.(png|jpe?g|svg)$/));
+  // No images at the moment
+  // importAll(require.context('../../assets/images/', false, /\.(png|jpe?g|svg)$/));
 }
 
 export function isParentCategory(categoryName) {

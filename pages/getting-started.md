@@ -1,6 +1,7 @@
 # Getting Started
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean consectetur quis metus sit amet malesuada. Nunc ut finibus ligula. Donec et nisl in augue pellentesque **pharetra sed a purus**. Mauris vitae vehicula enim, quis lobortis metus. Nunc orci ipsum, sagittis id odio vel, consectetur tincidunt felis. Proin in justo nec mi scelerisque consequat. *Praesent ut tortor molestie, suscipit erat eget, volutpat ipsum. Vivamus suscipit ligula nec dignissim cursus.*
+Pellentesque vitae nibh eu tellus lacinia luctus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed porttitor erat fermentum dui viverra, non imperdiet dui porttitor.
+
 
 ## Installation
 

@@ -1,50 +1,49 @@
-.wst--ay {
-  padding: 2rem;
-  font-size: 0.8rem;
-  margin-bottom: 2rem;
+.bf--ay {
   font-family: monospace;
-  border: 1px solid var(--wst-lightgray);
+  padding: var(--bf-spacing-lg);
+  font-size: var(--bf-font-size-small);
+  border: 1px solid var(--bf-color-lightgray);
 }
 
-.wst--ay-title {
+.bf--ay-title {
   display: flex;
   align-items: center;
 }
 
-.wst--ay-description {
-  color: var(--wst-gray);
-  padding-top: 1rem;
+.bf--ay-description {
+  padding-top: var(--bf-spacing-lg);
+  color: var(--bf-color-darkgray);
 }
 
-.wst--ay-tag {
-  padding: 0.25rem 0.5rem;
-  margin-right: 1rem;
-  border-radius: 1rem;
+.bf--ay-tag {
+  margin-right: var(--bf-spacing-lg);
+  padding: var(--bf-spacing-xxs) var(--bf-spacing-xs);
 
-  color: white;
   font-weight: 400;
   text-transform: uppercase;
-  background-color: var(--wst-green);
+  color: var(--bf-color-white);
+  background-color: var(--bf-color-green);
 }
 
-.wst--ay-summary {
-  padding-top: 0.5rem;
+.bf--ay-summary {
+  padding-top: var(--bf-spacing-sm);
 }
 
-.wst--ay-code {
+.bf--ay-code {
   display: inline-block;
-  margin-top: 2rem;
+  margin-top: var(--bf-spacing-xl);
 }
 
-.wst--ay-tag_loading {
-  color: var(--wst-black);
-  background-color: var(--wst-lightgray);
+.bf--ay-tag_loading {
+  color: var(--bf-color-black);
+  background-color: var(--bf-color-lightgray);
 }
 
-.wst--ay-tag_serious {
-  background-color: var(--wst-red);
+.bf--ay-tag_serious {
+  background-color: var(--bf-color-red);
 }
 
-.wst--ay-tag_moderate {
-  background-color: var(--wst-orange);
+.bf--ay-tag_moderate {
+  color: var(--bf-color-black);
+  background-color: var(--bf-color-yellow);
 }

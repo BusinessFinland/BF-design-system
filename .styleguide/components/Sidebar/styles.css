@@ -1,34 +1,41 @@
-.wst--sidebar {
-  position: fixed;
+.bf--sidebar {
   overflow-y: scroll;
-  top: 70px;
+  position: fixed;
+  top: 90px;
 
   height: 100%;
   width: 275px;
 
-  background-color: var(--wst-lightgray);
-}
-
-.wst--sidebar-category {
   text-transform: capitalize;
-  margin: 3.5rem 3rem;
+  background-color: var(--bf-color-brand-primary);
 }
 
-.wst--sidebar-link {
+.bf--sidebar-category {
+  margin: var(--bf-spacing-xxl) 0;
+}
+
+.bf--sidebar-link {
   display: block;
-  margin: 1.5rem 0;
-  text-transform: capitalize;
-
-  color: var(--wst-black);
   text-decoration: none;
+  padding: var(--bf-spacing-lg) 0;
+  margin: var(--bf-spacing-lg) 0;
+
+  color: var(--bf-color-white);
+  background-color: transparent;
+  transition: background-color var(--bf-transition);
 }
 
-.wst--sidebar-title {
-  font-size: 1.05rem;
+.bf--sidebar-title {
   font-weight: 600;
+  color: var(--bf-color-white);
 }
 
-.wst--sidebar-link_active {
-  color: var(--wst-darkred);
-  font-weight: 600;
+.bf--sidebar-title,
+.bf--sidebar-link {
+  padding-left: var(--bf-spacing-xxl);
+}
+
+.bf--sidebar-link_active {
+  color: var(--bf-color-white);
+  background-color: var(--bf-color-brand-primary-dark);
 }

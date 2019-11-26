@@ -11,12 +11,12 @@ import Sidebar from './components/Sidebar';
 
 import { importAllImages } from './utils';
 
+// Compoenents styles
+import '../assets/css/styles.css';
 // Styleguide styles
 import './styles.css';
 // Code hightlight
 import './highlight.css';
-// Compoenents styles
-import '../css/styles.css';
 // Import all images so webpack can process them
 importAllImages();
 

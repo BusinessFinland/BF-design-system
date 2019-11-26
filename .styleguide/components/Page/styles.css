@@ -1,12 +1,22 @@
-.wst--page {
+.bf--page {
   display: grid;
-  padding: 0 3rem;
+  padding: 0 var(--bf-spacing-xxl);
   grid-template-columns: 275px auto;
+  opacity: 0;
 }
 
-.wst--page-body {
-  margin: 3rem auto;
+.bf--page_loaded {
+  opacity: 1;
+  transition: opacity var(--bf-transition);
+}
+
+.bf--page-body {
+  margin: var(--bf-spacing-xxl) auto;
   max-width: 1140px;
   grid-column-start: 2;
-  transform: translateY(70px);
+  transform: translateY(90px);
+}
+
+.bf--page-bodyHTML {
+  margin-bottom: var(--bf-spacing-xl);
 }

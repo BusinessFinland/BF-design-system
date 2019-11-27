@@ -39,7 +39,8 @@
   background-color: var(--bf-color-lightgray);
 }
 
-.bf--ay-tag_serious {
+.bf--ay-tag_serious,
+.bf--ay-tag_critical {
   background-color: var(--bf-color-red);
 }
 

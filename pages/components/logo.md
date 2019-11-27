@@ -2,8 +2,6 @@
 
 Pellentesque vitae nibh eu tellus lacinia luctus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed porttitor erat fermentum dui viverra, non imperdiet dui porttitor.
 
-## Main Logo
-
 ```html
 <div class="bf-example-block">
 
@@ -24,11 +22,6 @@ Pellentesque vitae nibh eu tellus lacinia luctus. Class aptent taciti sociosqu a
 
 </div>
 ```
-
-
-## Secondary Logo
-
-Secondary white logotype with blue background as an example.
 
 ```html
 <div class="bf-example-block bf-example-block_blue">

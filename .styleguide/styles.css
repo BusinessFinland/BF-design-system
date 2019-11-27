@@ -27,14 +27,6 @@ body {
   overscroll-behavior-y: none;
 }
 
-a {
-  color: var(--bf-color-brand-primary);
-}
-
-a:hover {
-  text-decoration: none;
-}
-
 pre {
   overflow-x: scroll;
   padding: var(--bf-spacing-sm);
@@ -70,8 +62,8 @@ h5 {
 }
 
 h1 {
-  margin-top: 0;
   font-size: var(--bf-header-1);
+  margin-bottom: var(--bf-spacing-xxl);
 }
 
 h2 {
@@ -94,14 +86,12 @@ h5 {
 
 .bf-example-block {
   display: inline-block;
-  padding: var(--bf-spacing-lg) 0;
-}
-
-.bf-example-block > div {
-  margin: 0 var(--bf-spacing-lg);
+  border: 1px solid var(--bf-color-lightgray);
+  padding: var(--bf-spacing-lg) var(--bf-spacing-md);
 }
 
 .bf-example-block_blue {
+  color: var(--bf-color-white);
   background-color: var(--bf-color-brand-primary);
   padding: var(--bf-spacing-lg) var(--bf-spacing-sm);
 }

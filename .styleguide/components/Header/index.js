@@ -9,9 +9,9 @@ const Header = ({ version = '', description = '' }) => {
       <div className='bf--header-meta'>
         <div className='bf--logo'>
           <NavLink to='/'>
-            <div class='bf-logo bf-logo_sm'>
-              <div class='bf-logo-business'>Business</div>
-              <div class='bf-logo-finland'>Finland</div>
+            <div className='bf-logo bf-logo_sm'>
+              <div className='bf-logo-business'>Business</div>
+              <div className='bf-logo-finland'>Finland</div>
             </div>
           </NavLink>
         </div>

@@ -18,5 +18,5 @@
 }
 
 .bf--page-bodyHTML {
-  margin-top: var(--bf-spacing-xl);
+  margin-top: calc(var(--bf-spacing-xxl) * 1.5);
 }

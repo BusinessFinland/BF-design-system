@@ -16,7 +16,3 @@
   grid-column-start: 2;
   transform: translateY(90px);
 }
-
-.bf--page-bodyHTML {
-  margin-top: calc(var(--bf-spacing-xxl) * 1.5);
-}

@@ -1,10 +1,9 @@
 .bf--sidebar {
-  overflow-y: scroll;
   position: fixed;
-  top: 90px;
-
+  padding-top: 90px;
   height: 100%;
   width: 275px;
+  overflow-y: scroll;
 
   text-transform: capitalize;
   background-color: var(--bf-color-brand-primary);

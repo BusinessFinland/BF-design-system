@@ -10,11 +10,11 @@ const Page = ({ page }) => {
   const [isPageLoaded, setPageLoaded] = useState(false);
 
   useEffect(() => {
-    setPageLoaded(true);
     axe.run(function(err, results) {
       if (err) throw err;
 
       setViolations(results.violations);
+      setPageLoaded(true);
     });
 
     window.scrollTo(0, 0);
@@ -22,7 +22,7 @@ const Page = ({ page }) => {
 
   const classNames = cx({
     'bf--page': true,
-    'bf--page_loaded': isPageLoaded
+    'bf--page_loaded': isPageLoaded && violations
   });
 
   return (

@@ -1,6 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import axe from 'react-axe';
+axe(React, ReactDOM);
+
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import { version, repository, description } from '../package.json';

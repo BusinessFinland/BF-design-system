@@ -9,13 +9,17 @@ const Page = ({ page }) => {
   const [violations, setViolations] = useState(null);
   const [isPageLoaded, setPageLoaded] = useState(false);
 
-  useEffect(() => {
+  const checkAccessibility = () => {
     axe.run(function(err, results) {
       if (err) throw err;
 
       setViolations(results.violations);
       setPageLoaded(true);
     });
+  };
+
+  useEffect(() => {
+    checkAccessibility();
 
     window.scrollTo(0, 0);
   }, []);
@@ -28,7 +32,7 @@ const Page = ({ page }) => {
   return (
     <main className={classNames}>
       <div className='bf--page-body'>
-        <AYTag violations={violations} />
+        <AYTag violations={violations} onRefresh={checkAccessibility} />
         <div className='bf--page-bodyHTML' dangerouslySetInnerHTML={{ __html: page.body }} />
       </div>
     </main>

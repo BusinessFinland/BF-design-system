@@ -2,7 +2,7 @@ import React from 'react';
 
 import './styles.css';
 
-const AYTag = ({ violations }) => {
+const AYTag = ({ violations, onRefresh }) => {
   const renderTag = (status = '', message = '', description = '') => {
     return (
       <>
@@ -11,6 +11,11 @@ const AYTag = ({ violations }) => {
           <div className='bf--ay-message'>{message}</div>
         </div>
         {description && <div className='bf--ay-description'>{description}</div>}
+        {
+          <div className='bf-link' onClick={onRefresh}>
+            Refresh results
+          </div>
+        }
       </>
     );
   };

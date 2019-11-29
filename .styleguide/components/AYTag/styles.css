@@ -8,10 +8,11 @@
 .bf--ay-title {
   display: flex;
   align-items: center;
+  margin-bottom: var(--bf-spacing-lg);
 }
 
 .bf--ay-description {
-  padding-top: var(--bf-spacing-lg);
+  margin: var(--bf-spacing-lg) 0;
   color: var(--bf-color-darkgray);
 }
 

@@ -179,6 +179,7 @@ BF styles
 
 /* Link */
 .bf-link {
+  cursor: pointer;
   text-decoration: underline;
   color: var(--bf-color-brand-primary);
 }

@@ -95,3 +95,7 @@ h5 {
   background-color: var(--bf-color-brand-primary);
   padding: var(--bf-spacing-lg) var(--bf-spacing-sm);
 }
+
+.bf-example-block_300 {
+  width: 350px;
+}

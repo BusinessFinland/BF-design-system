@@ -16,7 +16,7 @@
 
   /* Typography */
   --bf-font-size-base: 16px;
-  --bf-font-size-small: 0.8rem;
+  --bf-font-size-small: 0.9rem;
 
   --bf-font-weight-thin: 300;
   --bf-font-weight-normal: 400;
@@ -93,7 +93,6 @@ BF styles
 .bf-btn-bordered {
   background-color: transparent;
   color: var(--bf-color-brand-primary);
-  padding: var(--bf-spacing-md) var(--bf-spacing-xxl);
   border: 2px solid var(--bf-color-brand-primary);
 }
 
@@ -298,6 +297,43 @@ BF styles
 
 .bf-border-list .bf-link:last-child {
   padding-bottom: 0;
+}
+
+/* Unorder List & List Items */
+.bf-ul,
+.bf-li {
+  margin: 0;
+  padding: 0;
+}
+
+.bf-ul {
+  margin: var(--bf-spacing-xl) 0 var(--bf-spacing-xl) 20px;
+}
+
+.bf-li {
+  margin: var(--bf-spacing-md) 0;
+}
+
+/* CTA Box */
+.bf-cta-box {
+  padding: var(--bf-spacing-xl);
+  font-size: var(--bf-font-size-small);
+  background-color: var(--bf-color-lightgray);
+}
+
+.bf-cta-box-header {
+  text-transform: uppercase;
+  font-size: var(--bf-header-5);
+  color: var(--bf-color-brand-primary);
+  font-weight: var(--bf-font-weight-bold);
+}
+
+.bf-cta-box-list {
+  margin: var(--bf-spacing-xl) 0;
+}
+
+.bf-cta-box-button {
+  width: 100%;
 }
 
 /* Custom Fonts */

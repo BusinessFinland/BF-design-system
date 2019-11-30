@@ -292,6 +292,10 @@ BF styles
   border-top: 1px solid var(--bf-color-gray);
 }
 
+.bf-border-list .bf-link:hover {
+  text-decoration: underline;
+}
+
 .bf-border-list .bf-link:last-child {
   padding-bottom: 0;
 }

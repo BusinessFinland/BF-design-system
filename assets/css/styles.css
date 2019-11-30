@@ -282,6 +282,20 @@ BF styles
   color: var(--bf-color-gray);
 }
 
+/* Border List */
+.bf-border-list .bf-link {
+  display: block;
+  padding: var(--bf-spacing-lg) 0;
+
+  text-decoration: none;
+  text-transform: uppercase;
+  border-top: 1px solid var(--bf-color-gray);
+}
+
+.bf-border-list .bf-link:last-child {
+  padding-bottom: 0;
+}
+
 /* Custom Fonts */
 @font-face {
   font-family: 'Finlandica';

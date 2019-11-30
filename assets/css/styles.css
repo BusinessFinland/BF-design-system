@@ -350,6 +350,48 @@ BF styles
   margin-bottom: var(--bf-spacing-lg);
 }
 
+/* Hero */
+.bf-hero {
+  position: relative;
+  height: 500px;
+}
+
+.bf-hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 1;
+}
+
+.bf-hero-title {
+  margin: 0;
+  color: var(--bf-color-white);
+}
+
+.bf-hero-subtitle {
+  margin: var(--bf-spacing-lg) 0;
+  font-size: var(--bf-header-4);
+  color: var(--bf-color-white);
+  text-transform: uppercase;
+}
+
+.bf-hero-cover {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.2;
+  background-color: var(--bf-color-black);
+}
+
+.bf-hero-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
 /* Custom Fonts */
 @font-face {
   font-family: 'Finlandica';

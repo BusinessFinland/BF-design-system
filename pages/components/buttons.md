@@ -8,6 +8,7 @@ Pellentesque vitae nibh eu tellus lacinia luctus. Class aptent taciti sociosqu a
 <div class="bf-example-block">
 
   <button class="bf-btn">Regular Button</button>
+  <button class="bf-btn bf-btn_inverted">Regular Inverted Button</button>
   <button class="bf-btn bf-btn_ghost">Regular Ghost Button</button>
 
 </div>
@@ -18,6 +19,7 @@ And regular uppercase buttons:
 <div class="bf-example-block">
 
   <button class="bf-btn bf-btn_uppercase">Regular Button</button>
+  <button class="bf-btn bf-btn_inverted bf-btn_uppercase">Regular Inverted Button</button>
   <button class="bf-btn bf-btn_ghost bf-btn_uppercase">Regular Ghost Button</button>
 
 </div>

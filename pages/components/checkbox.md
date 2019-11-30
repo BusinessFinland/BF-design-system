@@ -5,14 +5,20 @@ Pellentesque vitae nibh eu tellus lacinia luctus. Class aptent taciti sociosqu a
 ```html
 <div class="bf-example-block">
 
-  <input id="matkailu" type="checkbox" name="option" value="Matkailu">
-  <label for="matkailu">Matkailu</label>
+  <label class="bf-checkbox">
+    <input type="checkbox" name="option" value="1" checked disabled>
+    <span class="bf-checkbox-label">Välttämättömät evästeet</span>
+  </label>
 
-  <input id="gigitalisaatio" type="checkbox" name="option" value="Digitalisaatio" checked disabled>
-  <label for="gigitalisaatio">Digitalisaatio</label>
+  <label class="bf-checkbox">
+    <input type="checkbox" name="option" value="2">
+    <span class="bf-checkbox-label">Analytiikan ja suorituskyvyn evästeet</span>
+  </label>
 
-  <input id="biotalous" type="checkbox" name="option" value="Biotalous ja Cleantech">
-  <label for="biotalous">Biotalous ja Cleantech</label>
+  <label class="bf-checkbox">
+    <input type="checkbox" name="option" value="3">
+    <span class="bf-checkbox-label">Markkinoinnin evästeet</span>
+  </label>
 
 </div>
 ```
@@ -20,14 +26,20 @@ Pellentesque vitae nibh eu tellus lacinia luctus. Class aptent taciti sociosqu a
 ```html
 <div class="bf-example-block bf-example-block_blue">
 
-  <input id="matkailu-2" type="checkbox" name="option" value="Matkailu">
-  <label for="matkailu-2">Matkailu</label>
+  <label class="bf-checkbox">
+    <input type="checkbox" name="option" value="1" checked disabled>
+    <span class="bf-checkbox-label">Välttämättömät evästeet</span>
+  </label>
 
-  <input id="gigitalisaatio-2" type="checkbox" name="option" value="Digitalisaatio" checked disabled>
-  <label for="gigitalisaatio-2">Digitalisaatio</label>
+  <label class="bf-checkbox">
+    <input type="checkbox" name="option" value="2">
+    <span class="bf-checkbox-label">Analytiikan ja suorituskyvyn evästeet</span>
+  </label>
 
-  <input id="biotalous-2" type="checkbox" name="option" value="Biotalous ja Cleantech">
-  <label for="biotalous-2">Biotalous ja Cleantech</label>
+  <label class="bf-checkbox">
+    <input type="checkbox" name="option" value="3">
+    <span class="bf-checkbox-label">Markkinoinnin evästeet</span>
+  </label>
 
 </div>
 ```

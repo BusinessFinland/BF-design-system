@@ -119,6 +119,11 @@ BF styles
   text-transform: uppercase;
 }
 
+.bf-btn_inverted {
+  color: var(--bf-color-brand-primary);
+  background-color: var(--bf-color-white);
+}
+
 /* Logo */
 /* Regular Logo */
 .bf-logo {
@@ -390,6 +395,38 @@ BF styles
   height: 100%;
   width: 100%;
   object-fit: cover;
+}
+
+/* Checkbox */
+.bf-checkbox {
+  display: inline-flex;
+  align-items: center;
+}
+
+.bf-checkbox-label {
+  padding: var(--bf-spacing-sm) var(--bf-spacing-xs);
+  line-height: 1;
+}
+
+/* Cookie */
+.bf-cookie {
+  color: var(--bf-color-white);
+  padding: var(--bf-spacing-lg);
+  background-color: var(--bf-color-brand-primary);
+}
+
+.bf-cookie .bf-link {
+  color: var(--bf-color-white);
+}
+
+.bf-cookie-checkboxes {
+  display: flex;
+  flex-wrap: wrap;
+  margin: var(--bf-spacing-md) 0;
+}
+
+.bf-cookie-checkboxes .bf-checkbox {
+  margin-right: var(--bf-spacing-md);
 }
 
 /* Custom Fonts */

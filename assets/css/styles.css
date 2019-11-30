@@ -323,7 +323,7 @@ BF styles
 
 .bf-cta-box-header {
   text-transform: uppercase;
-  font-size: var(--bf-header-5);
+  font-size: var(--bf-header-4);
   color: var(--bf-color-brand-primary);
   font-weight: var(--bf-font-weight-bold);
 }
@@ -334,6 +334,20 @@ BF styles
 
 .bf-cta-box-button {
   width: 100%;
+}
+
+/* Form */
+.bf-form-title {
+  padding: 0;
+  text-transform: uppercase;
+  font-size: var(--bf-header-4);
+  color: var(--bf-color-brand-primary);
+  font-weight: var(--bf-font-weight-bold);
+  margin-bottom: var(--bf-spacing-md);
+}
+
+.bf-form .bf-form-input {
+  margin-bottom: var(--bf-spacing-lg);
 }
 
 /* Custom Fonts */

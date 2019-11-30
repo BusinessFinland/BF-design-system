@@ -28,7 +28,7 @@ body {
 }
 
 pre {
-  overflow-x: scroll;
+  overflow: auto;
   padding: var(--bf-spacing-sm);
   background-color: var(--bf-color-lightgray);
 }
@@ -38,7 +38,7 @@ pre code {
 }
 
 code {
-  overflow-x: scroll;
+  overflow: auto;
   font-size: var(--bf-font-size-small);
   color: var(--bf-color-brand-primary);
   background-color: var(--bf-color-lightgray);

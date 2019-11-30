@@ -355,6 +355,10 @@ BF styles
   margin-bottom: var(--bf-spacing-lg);
 }
 
+.bf-form-btn {
+  display: block;
+}
+
 /* Hero */
 .bf-hero {
   position: relative;

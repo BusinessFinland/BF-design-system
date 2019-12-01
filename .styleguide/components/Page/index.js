@@ -8,7 +8,8 @@ import AYTag from '../AYTag';
 axe.configure({
   rules: [
     {
-      tabindex: { enabled: false }
+      id: 'scrollable-region-focusable',
+      enabled: false
     }
   ]
 });

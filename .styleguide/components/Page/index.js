@@ -5,6 +5,14 @@ import React, { useState, useEffect } from 'react';
 import './styles.css';
 import AYTag from '../AYTag';
 
+axe.configure({
+  rules: [
+    {
+      tabindex: { enabled: false }
+    }
+  ]
+});
+
 const Page = ({ page }) => {
   const [violations, setViolations] = useState(null);
   const [isPageLoaded, setPageLoaded] = useState(false);

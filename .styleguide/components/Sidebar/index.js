@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-import { getPageName, replaceDashWithSpace } from '../../utils';
+import { getPageName, replaceDashWithSpace, capitalizeString } from '../../utils';
 
 import './styles.css';
 
@@ -29,7 +29,7 @@ const Sidebar = ({ parentPages, children }) => {
   const restLinks = Object.keys(children).map(category => {
     return (
       <div key={category} className='bf--sidebar-category'>
-        <div className='bf--sidebar-title'>{category}</div>
+        <div className='bf--sidebar-title'>{capitalizeString(category)}</div>
         {children[category].map(page => renderLink(page))}
       </div>
     );

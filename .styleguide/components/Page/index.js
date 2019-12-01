@@ -33,20 +33,26 @@ const Page = ({ page }) => {
   };
 
   useEffect(() => {
-    checkAccessibility();
+    if (page.hasComponent) {
+      checkAccessibility();
+    } else {
+      setPageLoaded(true);
+    }
 
     window.scrollTo(0, 0);
   }, []);
 
+  const hasNoA11yCheck = isPageLoaded && !page.hasComponent;
+
   const classNames = cx({
     'bf--page': true,
-    'bf--page_loaded': isPageLoaded && violations
+    'bf--page_loaded': (isPageLoaded && violations) || hasNoA11yCheck
   });
 
   return (
     <main className={classNames}>
       <div className='bf--page-body'>
-        <AYTag violations={violations} onRefresh={checkAccessibility} />
+        {!hasNoA11yCheck && <AYTag violations={violations} onRefresh={checkAccessibility} />}
         <div className='bf--page-bodyHTML' dangerouslySetInnerHTML={{ __html: page.body }} />
       </div>
     </main>

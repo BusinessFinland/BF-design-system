@@ -1,4 +1,5 @@
 const path = require('path');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 const HtmlWebPackPlugin = require('html-webpack-plugin');
 
 module.exports = {
@@ -45,6 +46,7 @@ module.exports = {
     new HtmlWebPackPlugin({
       template: path.resolve(__dirname, '.styleguide', 'public', 'index.html'),
       filename: path.resolve('dist/index.html')
-    })
+    }),
+    new CopyWebpackPlugin([{ from: 'assets/css', to: 'assets/css' }])
   ]
 };

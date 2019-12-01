@@ -1,5 +1,16 @@
 export function capitalizeFirstLetter(string) {
+  if (string.length < 3) {
+    return string.toUpperCase();
+  }
+
   return string.charAt(0).toUpperCase() + string.slice(1);
+}
+
+export function capitalizeString(string) {
+  return string
+    .split(' ')
+    .map(word => capitalizeFirstLetter(word))
+    .join(' ');
 }
 
 export function replaceDashWithSpace(string) {

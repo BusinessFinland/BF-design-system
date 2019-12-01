@@ -22,10 +22,14 @@ function createPages(filesPath = '', pages = {}, folderName = 'parent') {
         pages[folderName] = [];
       }
 
+      const htmlBody = htmlRenderer.render(fileContent);
+      const hasComponent = htmlBody.includes('language-html');
+
       pages[folderName].push({
         folderName,
+        hasComponent,
+        body: htmlBody,
         fileName: fileName.toLowerCase(),
-        body: htmlRenderer.render(fileContent),
         path: pages.parent && !pages.parent.length ? '/' : `/${getPageName(fileName).toLowerCase()}`
       });
     }

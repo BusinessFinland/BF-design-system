@@ -19,11 +19,6 @@ body {
   height: 100%;
   min-height: 100%;
 
-  color: var(--bf-color-black);
-  line-height: var(--bf-line-height-base);
-  font-size: var(--bf-font-size-base);
-  font-family: var(--bf-font-family-brand), var(--bf-font-family-fallback);
-
   overscroll-behavior-y: none;
 }
 
@@ -46,43 +41,6 @@ code {
   color: var(--bf-color-brand-primary);
   background-color: var(--bf-color-lightgray);
   padding: var(--bf-spacing-xxs) var(--bf-spacing-xs);
-}
-
-img {
-  width: 100%;
-  height: auto;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5 {
-  text-transform: uppercase;
-  color: var(--bf-color-brand-primary);
-  line-height: var(--bf-line-height-header);
-  margin: var(--bf-spacing-xxl) 0 var(--bf-spacing-xl);
-}
-
-h1 {
-  font-size: var(--bf-header-1);
-  margin-bottom: var(--bf-spacing-xxl);
-}
-
-h2 {
-  font-size: var(--bf-header-2);
-}
-
-h3 {
-  font-size: var(--bf-header-3);
-}
-
-h4 {
-  font-size: var(--bf-header-4);
-}
-
-h5 {
-  font-size: var(--bf-header-5);
 }
 
 /* Helpers */

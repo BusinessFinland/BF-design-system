@@ -5,10 +5,11 @@
   "description": "HTML Styleguide",
   "scripts": {
     "start": "npm-run-all --parallel watch:nodemon watch:webpack",
-    "build": "webpack --mode production",
+    "build": "npm-run-all --serial build:pages build:styleguide",
+    "build:pages": "babel-node .styleguide/bin",
+    "build:styleguide": "webpack --mode production",
     "watch:webpack": "webpack-dev-server --open --mode development",
-    "watch:nodemon": "nodemon .styleguide/bin --ext js,md,css --ignore 'assets/css/tokens.css' --exec babel-node",
-    "postinstall": "babel-node .styleguide/bin"
+    "watch:nodemon": "nodemon .styleguide/bin --ext js,md,css --ignore 'assets/css/tokens.css' --exec babel-node"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +20,7 @@
     "@babel/preset-env": "^7.7.1",
     "@babel/preset-react": "^7.7.0",
     "babel-loader": "^8.0.6",
+    "copy-webpack-plugin": "^5.0.5",
     "css-loader": "^3.2.0",
     "file-loader": "^4.2.0",
     "highlight.js": "^9.16.2",

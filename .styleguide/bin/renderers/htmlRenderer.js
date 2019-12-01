@@ -1,3 +1,5 @@
+const fs = require('fs');
+const path = require('path');
 const hljs = require('highlight.js');
 const { Remarkable } = require('remarkable');
 
@@ -20,11 +22,32 @@ const renderParams = {
 };
 
 const rendererPlugin = md => {
-  const oldFenceFunc = md.renderer.rules.fence;
+  const fenceFunc = md.renderer.rules.fence;
 
   md.renderer.rules.fence = (tokens, idx, options, env, instance) => {
-    const htmlElementCode = tokens[idx].content;
-    return htmlElementCode.concat(oldFenceFunc(tokens, idx, options, env, instance));
+    const isCSS = tokens[idx].params === 'css';
+    const codeContent = tokens[idx].content;
+    const tokensContentHeader = `
+  /* 
+    -----------------------------------------------------------
+    DO NOT CHANGE! FILE WAS GENERATED AUTOMATICALLY FROM TOKENS.MD!
+    -----------------------------------------------------------
+  */
+   `;
+
+    if (isCSS) {
+      fs.writeFile(
+        path.resolve(__dirname, '../../..', 'assets/css/tokens.css'),
+        tokensContentHeader.concat(codeContent),
+        err => {
+          if (err) throw err;
+        }
+      );
+
+      return fenceFunc(tokens, idx, options, env, instance);
+    }
+
+    return codeContent.concat(fenceFunc(tokens, idx, options, env, instance));
   };
 };
 

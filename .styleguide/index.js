@@ -14,7 +14,9 @@ import Sidebar from './components/Sidebar';
 
 import { importAllImages } from './utils';
 
-// Compoenents styles
+// Generated tokens
+import '../assets/css/tokens.css';
+// Components styles
 import '../assets/css/styles.css';
 // Styleguide styles
 import './styles.css';

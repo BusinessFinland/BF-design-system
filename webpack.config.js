@@ -8,6 +8,9 @@ module.exports = {
     contentBase: './',
     hot: true
   },
+  watchOptions: {
+    ignored: /node_modules/
+  },
   module: {
     rules: [
       {

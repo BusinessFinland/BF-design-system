@@ -7,7 +7,7 @@
     "start": "npm-run-all --parallel watch:nodemon watch:webpack",
     "build": "webpack --mode production",
     "watch:webpack": "webpack-dev-server --open --mode development",
-    "watch:nodemon": "nodemon .styleguide/bin --ext js,md,css --exec babel-node",
+    "watch:nodemon": "nodemon .styleguide/bin --ext js,md,css --ignore 'assets/css/tokens.css' --exec babel-node",
     "postinstall": "babel-node .styleguide/bin"
   },
   "keywords": [],

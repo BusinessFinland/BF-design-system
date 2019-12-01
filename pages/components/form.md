@@ -1,7 +1,5 @@
 # Form
 
-Pellentesque vitae nibh eu tellus lacinia luctus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed porttitor erat fermentum dui viverra, non imperdiet dui porttitor.
-
 ```html
 <form class="bf-form">
   <legend class="bf-form-title">Example form</legend>

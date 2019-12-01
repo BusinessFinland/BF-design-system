@@ -150,6 +150,7 @@
 /* Breadcrumbs */
 .bf-breadcrumbs {
   display: flex;
+  flex-wrap: wrap;
   font-size: var(--bf-font-size-small);
 }
 
@@ -430,6 +431,19 @@
 
 .bf-header-body-links .bf-link {
   padding-right: var(--bf-spacing-sm);
+}
+
+/* Media queries */
+@media only screen and (max-width: 992px) {
+  .bf-header-body-right {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .bf-header-title {
+    display: none;
+  }
 }
 
 /* Custom Fonts */

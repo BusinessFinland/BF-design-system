@@ -1,7 +1,5 @@
 # Link
 
-Link exists in two variations for bright and dark backgrounds.
-
 ```html
 <div class="bf-example-block">
   

@@ -11,8 +11,9 @@
 }
 
 .bf--page-body {
-  margin: var(--bf-spacing-xxl) auto;
   max-width: 1140px;
   grid-column-start: 2;
+  width: calc(90vw - 275px);
   transform: translateY(90px);
+  margin: var(--bf-spacing-xxl) auto;
 }

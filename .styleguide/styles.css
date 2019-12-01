@@ -29,12 +29,15 @@ body {
 
 pre {
   overflow: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word;
   padding: var(--bf-spacing-sm);
   background-color: var(--bf-color-lightgray);
 }
 
 pre code {
   padding: 0;
+  color: var(--bf-color-black);
 }
 
 code {
@@ -98,4 +101,13 @@ h5 {
 
 .bf-example-block_300 {
   width: 350px;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 992px) {
+  html,
+  body {
+    font-size: var(--bf-font-size-small);
+  }
 }

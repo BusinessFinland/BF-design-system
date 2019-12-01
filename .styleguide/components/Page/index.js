@@ -18,12 +18,17 @@ const Page = ({ page }) => {
   const [isPageLoaded, setPageLoaded] = useState(false);
 
   const checkAccessibility = () => {
-    axe.run(function(err, results) {
-      if (err) throw err;
+    // Make axe.run a sync function
+    // Otherwise axe.run can overlap a previous execution
+    // which will cause an error
+    setTimeout(() => {
+      axe.run(function(err, results) {
+        if (err) throw err;
 
-      setViolations(results.violations);
-      setPageLoaded(true);
-    });
+        setViolations(results.violations);
+        setPageLoaded(true);
+      });
+    }, 0);
   };
 
   useEffect(() => {

@@ -1,49 +1,12 @@
 {
   "name": "bf-html-styleguide",
-  "version": "0.1.0",
-  "repository": "https://github.com/BusinessFinland/BF-design-system",
-  "homepage": "https://businessfinland.github.io/BF-design-system",
-  "description": "HTML Styleguide",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "npm-run-all --parallel watch:nodemon watch:webpack",
-    "build": "npm-run-all --serial build:pages build:styleguide",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
-    "build:pages": "babel-node .styleguide/bin",
-    "build:styleguide": "webpack --mode production",
-    "watch:webpack": "webpack-dev-server --open --mode development",
-    "watch:nodemon": "nodemon .styleguide/bin --ext js,md,css --ignore 'assets/css/tokens.css' --exec babel-node"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "@babel/core": "^7.7.2",
-    "@babel/node": "^7.7.0",
-    "@babel/preset-env": "^7.7.1",
-    "@babel/preset-react": "^7.7.0",
-    "babel-loader": "^8.0.6",
-    "copy-webpack-plugin": "^5.0.5",
-    "css-loader": "^3.2.0",
-    "file-loader": "^4.2.0",
-    "highlight.js": "^9.16.2",
-    "html-loader": "^0.5.5",
-    "html-webpack-plugin": "^3.2.0",
-    "nodemon": "^1.19.4",
-    "npm-run-all": "^4.1.5",
-    "react-axe": "^3.3.0",
-    "remarkable": "^2.0.0",
-    "style-loader": "^1.0.0",
-    "webpack": "^4.41.2",
-    "webpack-cli": "^3.3.10",
-    "webpack-dev-server": "^3.9.0",
-    "gh-pages": "^2.1.1"
-  },
-  "dependencies": {
-    "axe-core": "^3.4.0",
-    "classnames": "^2.2.6",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-router-dom": "^5.1.2"
-  }
+  "license": "ISC"
 }

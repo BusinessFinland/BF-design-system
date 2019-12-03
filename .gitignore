@@ -1,3 +1,4 @@
 /node_modules
 /.styleguide/pages.json
 /assets/css/tokens.css
+/dist

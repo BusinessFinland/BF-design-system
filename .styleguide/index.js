@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 import axe from 'react-axe';
 axe(React, ReactDOM);
 
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 
 import { version, repository, description } from '../package.json';
 
@@ -41,7 +41,7 @@ function Styleguide({ pagesByFolder }) {
   });
 
   return (
-    <Router basename='/BF-design-system'>
+    <Router basename={process.env.PUBLIC_URL}>
       <Header version={version} repo={repository} description={description} />
       <Sidebar parentPages={parent}>{restFolders}</Sidebar>
       <Switch>{routes}</Switch>

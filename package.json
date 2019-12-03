@@ -1,12 +1,14 @@
 {
   "name": "bf-html-styleguide",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "repository": "https://github.com/BusinessFinland/BF-design-system",
   "homepage": "https://businessfinland.github.io/BF-design-system",
   "description": "HTML Styleguide",
   "scripts": {
     "start": "npm-run-all --parallel watch:nodemon watch:webpack",
     "build": "npm-run-all --serial build:pages build:styleguide",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "build:pages": "babel-node .styleguide/bin",
     "build:styleguide": "webpack --mode production",
     "watch:webpack": "webpack-dev-server --open --mode development",
@@ -24,6 +26,7 @@
     "copy-webpack-plugin": "^5.0.5",
     "css-loader": "^3.2.0",
     "file-loader": "^4.2.0",
+    "gh-pages": "^2.1.1",
     "highlight.js": "^9.16.2",
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "^3.2.0",

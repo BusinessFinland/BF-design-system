@@ -6,13 +6,13 @@ You can use components styles as a project dependency via npm from the github re
 
 1. Enter the root of you project where you have your `package.json` and run
 
-   `npm install https://github.com/BusinessFinland/BF-design-system`
+   `npm install https://github.com/BusinessFinland/BF-design-system#gh-pages`
 
 2. Go to the index file of your application and import `tokens.css` and `styles.css`.
 
-   `import 'bf-html-styleguide/dist/assets/css/tokens.css';`
+   `import 'bf-html-styleguide/assets/css/tokens.css';`
 
-   `import 'bf-html-styleguide/dist/assets/css/styles.css';`
+   `import 'bf-html-styleguide/assets/css/styles.css';`
 
 If you want to get more familiar with the tool itself, read the next chapter.
 
@@ -59,11 +59,9 @@ You can find all logic of generation HTML templates from `.md` files in `/.style
 
 It will start two development servers. One is watching for changes in `/.styleguide` folder, and one is responsible for generating HTML from markdown files.
 
-### Generating a production build
+### Deployment
 
-To create a production build run `npm run build`.
-
-When created, you are going to find a `/dist` folder with production build inside the root directory.
+To deploy a new version of the styleguide run `npm run deploy`. Updated styles would be also available automatically.
 
 # Limitations
 

@@ -10,9 +10,9 @@ You can use components styles as a project dependency via npm from the github re
 
 2. Go to the index file of your application and import `tokens.css` and `styles.css`.
 
-   `import 'bf-html-styleguide/dist/assets/css/tokens.css';`
+   `import 'bf-html-styleguide/docs/assets/css/tokens.css';`
 
-   `import 'bf-html-styleguide/dist/assets/css/styles.css';`
+   `import 'bf-html-styleguide/docs/assets/css/styles.css';`
 
 If you want to get more familiar with the tool itself, read the next chapter.
 
@@ -63,4 +63,4 @@ It will start two development servers. One is watching for changes in `/.stylegu
 
 To create a production build run `npm run build`.
 
-When created, you are going to find a `/dist` folder with production build inside the root directory.
+When created, you are going to find a `/docs` folder with production build inside the root directory.

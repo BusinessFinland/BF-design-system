@@ -4,6 +4,9 @@ const HtmlWebPackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: path.resolve(__dirname, '.styleguide', 'index.js'),
+  output: {
+    path: path.resolve(__dirname, 'docs')
+  },
   devServer: {
     historyApiFallback: true,
     contentBase: './',
@@ -45,7 +48,7 @@ module.exports = {
   plugins: [
     new HtmlWebPackPlugin({
       template: path.resolve(__dirname, '.styleguide', 'public', 'index.html'),
-      filename: path.resolve('dist/index.html')
+      filename: path.resolve('docs/index.html')
     }),
     new CopyWebpackPlugin([{ from: 'assets/css', to: 'assets/css' }])
   ]

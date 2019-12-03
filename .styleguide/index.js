@@ -41,7 +41,7 @@ function Styleguide({ pagesByFolder }) {
   });
 
   return (
-    <Router>
+    <Router basename='/BF-design-system'>
       <Header version={version} repo={repository} description={description} />
       <Sidebar parentPages={parent}>{restFolders}</Sidebar>
       <Switch>{routes}</Switch>

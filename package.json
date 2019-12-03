@@ -2,6 +2,7 @@
   "name": "bf-html-styleguide",
   "version": "0.0.1",
   "repository": "https://github.com/BusinessFinland/BF-design-system",
+  "homepage": "https://businessfinland.github.io/BF-design-system",
   "description": "HTML Styleguide",
   "scripts": {
     "start": "npm-run-all --parallel watch:nodemon watch:webpack",

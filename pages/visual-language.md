@@ -1,5 +1,8 @@
 # Visual Language
 
+On the basic level, visual language is expressed with *design tokens* - atoms of design systems. They are named enteties
+that store visual design attributes. Technically, design tokens are expressed as CSS variables.
+
 
 ```css
 :root {

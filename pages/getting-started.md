@@ -31,8 +31,6 @@ By using Business Finland Design System we're trying to tackle following issues 
 * Second, have a look at the component and UI element inventory of this design system.
 * Third, get access to Business Finland Design System Teams channel for communication of design topics (if you don't have access for it plase do not hesitate to send request to maria.singh[at]businessfinland.fi):
 
-https://teams.microsoft.com/l/channel/19%3a9496e0811ad1484bbefd4616896ba6e4%40thread.skype/Design%2520system?groupId=5a4dd1b1-9e56-4ffa-97a0-746ce542a109&tenantId=7c94a248-ecf2-41b6-9b42-923651114b04
-
 https://smarturl.it/BF-designSystem
 
 ![Image of Design System Process](https://github.com/BusinessFinland/BF-design-system/blob/getting-started-Janne-edits/pages/BFdesignsystemprocess2.png)

@@ -2,13 +2,37 @@
 
 ## Introduction
 
-First things first familiarise yourself with the Business Finland design system process.
+### What is Design System
 
-![Image of design system process]()
+**Design systems** is a systematic approach to creating and maintaining consistent user interfaces of Business Finland which coherently communicate our brand values and empower user experience. Design system is often refered as “component library” or “pattern library”
+
+### Why we use it
+
+By using Business Finland Design System we're trying to tackle following issues common in web development:
+
+* Inconsistent user interfaces and user experience
+* Large costs of design
+* Low-level multidisciplinary collaboration
+* Non-efficient design-team work
+
+### Terminology
+
+* **Components** are meaningful elements of a web application, for example, buttons, form inputs, dropdowns.
+* **Elements** UI elements are "elemental building blocks of an interface" often refered also as "components". 
+* **Patterns** are properties of many components, for example, paddings, spacing, colors, typography, icons, grids and motions.
+* **Visual language** outlines and defines our design principles the the core value of the product and team. For instance, it explains why  patterns included in design syste should be used. It also communicates the best practices and methods to be used for achieving the team goals. It may include also other specifications for our visual presence.
+* **Style guide** is this stuff that you currently reading. A style guide is an internal company website which “represents the styles, patterns, practices, and principles of a design system and teaches how to use it” (Grainer, 2017).
+* **Design system** is as a combination of above mentioned tools like style guide and the processes to maintain and develope it further. The process includes instructions and collaboration tool
+
+### Process
+
+First, familiarise yourself with the Business Finland Design System process described in following picture. Second, have a look at the component and UI element inventory of this design system. Third, get access to Business Finland Design System Teams channel: https://teams.microsoft.com/l/channel/19%3a9496e0811ad1484bbefd4616896ba6e4%40thread.skype/Design%2520system?groupId=5a4dd1b1-9e56-4ffa-97a0-746ce542a109&tenantId=7c94a248-ecf2-41b6-9b42-923651114b04
+
+![Image of Design System Process](https://github.com/BusinessFinland/BF-design-system/blob/getting-started-Janne-edits/pages/BFdesignsystemprocess2.png)
 
 
 
-## How to use
+## How to use it in your project
 
 You can use components styles as a project dependency via npm from the github repo. All you have to do is:
 

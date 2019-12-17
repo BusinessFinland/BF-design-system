@@ -4,7 +4,7 @@
 
 The EU Accessibility Directive https://ec.europa.eu/digital-single-market/en/web-accessibility and the resulting national legislation, Digital Services Act, requires that authorities such as Business Finland ensures that its websites, digital services and mobile apps will meet common accessibility standards. The Act on the Provision of Digital Services entered into force on April 1, 2019. Advisory and monitoring of accessibility requirements is the responsibility of the Regional Administration of Southern Finland (AVI). 
 
-*All new digital services in Business Finland must meet the accessibility requirements by September 23, 2020. Therefore, all contributions to this Design System must be meet the accessibility requirements.* 
+*All new digital services in Business Finland must meet the accessibility requirements by September 23, 2020. Therefore, all contributions to this Style Guide must be meet the accessibility requirements. This styleguide provides an automatic accessibility check using .* 
 
 Therefore, as part of the project deliverables, the development team (BF partner, contractor, sub-contractor, BF staff) must indicate to what extent the service (deliverable) meets or differs from the accessibility requirements, i.e. WCAG 2.1 accessibility guidelines e.g. http://papunet.net/saavutettavuus/verkkosisallon-saavutettavuusohjeet-wcag. 
 
@@ -128,3 +128,5 @@ Also, the 18F Accessibility Guide maintained by the US government's digital agen
 There are several freely available tools for analyzing availability. 
 
 For example, Google Chrome web browser Developers Tool (Settings-> More Tools-> Developer Tools-> Audits) allows you to audit the accessibility of a single webpage.
+
+This styleguide provides an automatic accessibility check on page load. It uses axe-core accessibility engine behind the scenes. The engine not only checks the components but a whole page.

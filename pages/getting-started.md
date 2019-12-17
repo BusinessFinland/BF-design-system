@@ -18,21 +18,26 @@ By using Business Finland Design System we're trying to tackle following issues 
 ### Terminology
 
 * **Components** are meaningful elements of a web application, for example, buttons, form inputs, dropdowns.
-* **Elements** UI elements are "elemental building blocks of an interface" often refered also as "components". 
+* **UI elements** are "elemental building blocks of an user interface" often refered also as "components". 
 * **Patterns** are properties of many components, for example, paddings, spacing, colors, typography, icons, grids and motions.
 * **Visual language** outlines and defines our design principles the the core value of the product and team. For instance, it explains why  patterns included in design syste should be used. It also communicates the best practices and methods to be used for achieving the team goals. It may include also other specifications for our visual presence.
+* **Token/Design tokens** Visual language is expressed with design tokens - atoms of design systems. Tokens are an agnostic (Android, iOS, Web, etc…) way to store variables such as typography, color, and spacing. Design tokens are pieces of UI information to store design related information such as colors, fonts, spaces, animations, etc. that  can be transformed and formatted to meet the needs of any platform.
 * **Style guide** is this stuff that you currently reading. A style guide is an internal company website which “represents the styles, patterns, practices, and principles of a design system and teaches how to use it” (Grainer, 2017).
 * **Design system** is as a combination of above mentioned tools like style guide and the processes to maintain and develope it further. The process includes instructions and collaboration tool
 
 ### Process
 
-First, familiarise yourself with the Business Finland Design System process described in following picture. Second, have a look at the component and UI element inventory of this design system. Third, get access to Business Finland Design System Teams channel: https://teams.microsoft.com/l/channel/19%3a9496e0811ad1484bbefd4616896ba6e4%40thread.skype/Design%2520system?groupId=5a4dd1b1-9e56-4ffa-97a0-746ce542a109&tenantId=7c94a248-ecf2-41b6-9b42-923651114b04
+* First, familiarise yourself with the Business Finland Design System process described in following picture. 
+* Second, have a look at the component and UI element inventory of this design system.
+* Third, get access to Business Finland Design System Teams channel for communication of design topics (if you don't have access for it plase do not hesitate to send request to maria.singh[at]businessfinland.fi):
+
+https://teams.microsoft.com/l/channel/19%3a9496e0811ad1484bbefd4616896ba6e4%40thread.skype/Design%2520system?groupId=5a4dd1b1-9e56-4ffa-97a0-746ce542a109&tenantId=7c94a248-ecf2-41b6-9b42-923651114b04
+
+https://smarturl.it/BF-designSystem
 
 ![Image of Design System Process](https://github.com/BusinessFinland/BF-design-system/blob/getting-started-Janne-edits/pages/BFdesignsystemprocess2.png)
 
-
-
-## How to use it in your project
+## How to use it in your own project
 
 You can use components styles as a project dependency via npm from the github repo. All you have to do is:
 

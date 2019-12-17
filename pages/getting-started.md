@@ -4,7 +4,9 @@
 
 First things first familiarise yourself with the Business Finland design system process.
 
-Picture
+![Image of design system process]()
+
+
 
 ## How to use
 

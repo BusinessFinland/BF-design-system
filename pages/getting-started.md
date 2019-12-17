@@ -15,6 +15,8 @@ By using Business Finland Design System we're trying to tackle following issues 
 * Low-level multidisciplinary collaboration
 * Non-efficient design-team work
 
+:finland: This Design System advocates also Finnish design - This is proudly designed in Finland :finland: 
+
 ### Terminology
 
 * **Components** are meaningful elements of a web application, for example, buttons, form inputs, dropdowns.

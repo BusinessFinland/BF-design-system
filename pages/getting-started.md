@@ -1,5 +1,11 @@
 # Getting Started
 
+## Introduction
+
+First things first familiarise yourself with the Business Finland design system process.
+
+Picture
+
 ## How to use
 
 You can use components styles as a project dependency via npm from the github repo. All you have to do is:

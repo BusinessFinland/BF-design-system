@@ -1,6 +1,41 @@
 # Getting Started
 
-## How to use
+## Introduction
+
+### What is Design System
+
+**Design systems** is a systematic approach to creating and maintaining consistent user interfaces of Business Finland which coherently communicate our brand values and empower user experience. Design system is often refered as “component library” or “pattern library”
+
+### Why we use it
+
+By using Business Finland Design System we're trying to tackle following issues common in web development:
+
+* Inconsistent user interfaces and user experience
+* Large costs of design
+* Low-level multidisciplinary collaboration
+* Non-efficient design-team work
+
+:finland: This Design System advocates also Finnish design - Business Finland is proudly designed in Finland :finland: 
+
+### Terminology
+
+* **Components** are meaningful elements of a web application, for example, buttons, form inputs, dropdowns.
+* **UI elements** are "elemental building blocks of an user interface" often refered also as "components". 
+* **Patterns** are properties of many components, for example, paddings, spacing, colors, typography, icons, grids and motions.
+* **Visual language** outlines and defines our design principles the the core value of the product and team. For instance, it explains why  patterns included in design syste should be used. It also communicates the best practices and methods to be used for achieving the team goals. It may include also other specifications for our visual presence.
+* **Token/Design tokens** Visual language is expressed with design tokens - atoms of design systems. Tokens are an agnostic (Android, iOS, Web, etc…) way to store variables such as typography, color, and spacing. Design tokens are pieces of UI information to store design related information such as colors, fonts, spaces, animations, etc. that  can be transformed and formatted to meet the needs of any platform.
+* **Style guide** is this stuff that you currently reading. A style guide is an internal company website which “represents the styles, patterns, practices, and principles of a design system and teaches how to use it” (Grainer, 2017).
+* **Design system** is as a combination of above mentioned tools like style guide and the processes to maintain and develope it further. The process includes instructions and collaboration tool
+
+### Process
+
+- :heavy_check_mark: First, have a quick look at the structure of this design system including component and UI element inventories and clone it to your local host as instructed in following chapter.
+- :heavy_check_mark: Second, familiarise yourself with the Business Finland Design System process described in following picture and decide whether you can re-use exiting components or if you need to create new.
+- :heavy_check_mark: Third, get access to Business Finland Design System Teams channel https://smarturl.it/BF-designSystem for getting support for your thoughts and join conversation of design related topics. If you don't have access to Teams channel, please do not hesitate to request for it by sending email to *maria.singh[at]businessfinland.fi*
+
+![Image of Design System Process](https://github.com/BusinessFinland/BF-design-system/blob/getting-started-Janne-edits/pages/BFdesignsystemprocess2.png)
+
+## How to use it in your own project
 
 You can use components styles as a project dependency via npm from the github repo. All you have to do is:
 

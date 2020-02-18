@@ -72,4 +72,4 @@ To deploy a new version of the styleguide run `npm run deploy`. Updated styles w
 
 # Misc dev notes 
 
-Run `npm audit fix` to make sure that there is no potential security vulnerabilities so as to GitHub won't find any vulnerable dependencies in the repository. Then commit and push changes (most likely only package-lock.json and/or package.json files) to the master branch. 
+- Run `npm audit fix` to make sure that there is no potential security vulnerabilities so as to GitHub won't find any vulnerable dependencies in the repository. Then commit and push changes (most likely only package-lock.json and/or package.json files) to the master branch. ::Niko

@@ -69,3 +69,7 @@ To deploy a new version of the styleguide run `npm run deploy`. Updated styles w
 - Not possible to use another page template
 - A11Y plugin checks the whole page instead of component, so if the styleguide has A11Y problems, it will show it.
 - Live reload doesn't affect A11Y. You have to refresh it manually.
+
+# Misc dev notes 
+
+Run `npm audit fix` to make sure that there is no potential security vulnerabilities so as to GitHub won't find any vulnerable dependencies in the repository. Then commit and push changes (most likely only package-lock.json and/or package.json files) to the master branch. 

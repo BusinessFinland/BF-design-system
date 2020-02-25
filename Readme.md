@@ -78,7 +78,7 @@ Build a docker image from the `Dockerfile` and the cloned context in the master 
 docker build . -t bf-design-system:dev
 ```
 
-Creates a container from the build image and start the container:
+Create a container from the build image and start the container:
 
 ```
 docker run -p 8080:8080 -d --name bf-design-system bf-design-system:dev
@@ -86,7 +86,7 @@ docker run -p 8080:8080 -d --name bf-design-system bf-design-system:dev
 
 It will start on http://localhost:8080
 
-A running contained can be stopped and started again, respectively:
+A running container can be stopped and started again, respectively:
 
 ```
 docker stop bf-design-system

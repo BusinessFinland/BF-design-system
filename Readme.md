@@ -70,6 +70,30 @@ To deploy a new version of the styleguide run `npm run deploy`. Updated styles w
 - A11Y plugin checks the whole page instead of component, so if the styleguide has A11Y problems, it will show it.
 - Live reload doesn't affect A11Y. You have to refresh it manually.
 
-# Misc dev notes 
+# Don't want to install Node? Run with docker
 
-- Run `npm audit fix` to make sure that there is no potential security vulnerabilities so as to GitHub won't find any vulnerable dependencies in the repository. Then commit and push changes (most likely only package-lock.json and/or package.json files) to the master branch. ::Niko
+Build a docker image from the `Dockerfile` and the cloned context in the master branch:
+
+```
+docker build . -t bf-design-system:dev
+```
+
+Creates a container from the build image and start the container:
+
+```
+docker run -p 8080:8080 -d --name bf-design-system bf-design-system:dev
+```
+
+It will start on http://localhost:8080
+
+A running contained can be stopped and started again, respectively:
+
+```
+docker stop bf-design-system
+docker start bf-design-system
+```
+
+# Npm audit fix
+
+
+Run `npm audit fix` to make sure that there is no potential security vulnerabilities so as to GitHub won't find any vulnerable dependencies in the repository. Then commit and push changes (most likely only package-lock.json and/or package.json files) to the master branch.

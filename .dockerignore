@@ -1,0 +1,5 @@
+.git
+.gitignore
+Readme.md
+webpack.config.js
+/pages/*.png

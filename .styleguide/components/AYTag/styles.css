@@ -1,49 +1,49 @@
 .bf--ay {
   font-family: monospace;
-  padding: var(--bf-spacing-lg);
-  font-size: var(--bf-font-size-small);
-  border: 1px solid var(--bf-color-lightgray);
+  padding: var(--vf-spacing-lg);
+  font-size: var(--vf-font-size-small);
+  border: 1px solid var(--vf-color-lightgray);
 }
 
 .bf--ay-title {
   display: flex;
   align-items: center;
-  margin-bottom: var(--bf-spacing-lg);
+  margin-bottom: var(--vf-spacing-lg);
 }
 
 .bf--ay-description {
-  margin: var(--bf-spacing-lg) 0;
-  color: var(--bf-color-darkgray);
+  margin: var(--vf-spacing-lg) 0;
+  color: var(--vf-color-darkgray);
 }
 
 .bf--ay-tag {
-  margin-right: var(--bf-spacing-lg);
-  padding: var(--bf-spacing-xxs) var(--bf-spacing-xs);
+  margin-right: var(--vf-spacing-lg);
+  padding: var(--vf-spacing-xxs) var(--vf-spacing-xs);
   font-weight: 400;
-  color: var(--bf-color-white);
-  background-color: var(--bf-color-green);
+  color: var(--vf-color-white);
+  background-color: var(--vf-color-green);
 }
 
 .bf--ay-summary {
-  padding-top: var(--bf-spacing-sm);
+  padding-top: var(--vf-spacing-sm);
 }
 
 .bf--ay-code {
   display: inline-block;
-  margin-top: var(--bf-spacing-xl);
+  margin-top: var(--vf-spacing-xl);
 }
 
 .bf--ay-tag_loading {
-  color: var(--bf-color-black);
-  background-color: var(--bf-color-lightgray);
+  color: var(--vf-color-black);
+  background-color: var(--vf-color-lightgray);
 }
 
 .bf--ay-tag_serious,
 .bf--ay-tag_critical {
-  background-color: var(--bf-color-red);
+  background-color: var(--vf-color-red);
 }
 
 .bf--ay-tag_moderate {
-  color: var(--bf-color-black);
-  background-color: var(--bf-color-yellow);
+  color: var(--vf-color-black);
+  background-color: var(--vf-color-yellow);
 }

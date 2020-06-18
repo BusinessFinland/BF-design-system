@@ -26,35 +26,35 @@ pre {
   overflow: auto;
   white-space: pre-wrap;
   word-wrap: break-word;
-  padding: var(--bf-spacing-sm);
-  background-color: var(--bf-color-lightgray);
+  padding: var(--vf-spacing-sm);
+  background-color: var(--vf-color-lightgray);
 }
 
 pre code {
   padding: 0;
-  color: var(--bf-color-black);
+  color: var(--vf-color-black);
 }
 
 code {
   overflow: auto;
-  font-size: var(--bf-font-size-small);
-  color: var(--bf-color-brand-primary);
-  background-color: var(--bf-color-lightgray);
-  padding: var(--bf-spacing-xxs) var(--bf-spacing-xs);
+  font-size: var(--vf-font-size-small);
+  color: var(--vf-color-brand-primary);
+  background-color: var(--vf-color-lightgray);
+  padding: var(--vf-spacing-xxs) var(--vf-spacing-xs);
 }
 
 /* Helpers */
 
 .bf-example-block {
   display: inline-block;
-  border: 1px solid var(--bf-color-lightgray);
-  padding: var(--bf-spacing-lg) var(--bf-spacing-md);
+  border: 1px solid var(--vf-color-lightgray);
+  padding: var(--vf-spacing-lg) var(--vf-spacing-md);
 }
 
 .bf-example-block_blue {
-  color: var(--bf-color-white);
-  background-color: var(--bf-color-brand-primary);
-  padding: var(--bf-spacing-lg) var(--bf-spacing-sm);
+  color: var(--vf-color-white);
+  background-color: var(--vf-color-brand-primary);
+  padding: var(--vf-spacing-lg) var(--vf-spacing-sm);
 }
 
 .bf-example-block_300 {
@@ -66,6 +66,6 @@ code {
 @media only screen and (max-width: 992px) {
   html,
   body {
-    font-size: var(--bf-font-size-small);
+    font-size: var(--vf-font-size-small);
   }
 }

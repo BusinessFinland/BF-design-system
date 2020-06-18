@@ -1,13 +1,13 @@
 .bf--page {
   display: grid;
-  padding: 0 var(--bf-spacing-xxl);
+  padding: 0 var(--vf-spacing-xxl);
   grid-template-columns: 275px auto;
   opacity: 0;
 }
 
 .bf--page_loaded {
   opacity: 1;
-  transition: opacity var(--bf-transition);
+  transition: opacity var(--vf-transition);
 }
 
 .bf--page-body {
@@ -15,5 +15,5 @@
   grid-column-start: 2;
   width: calc(90vw - 275px);
   transform: translateY(90px);
-  margin: var(--bf-spacing-xxl) auto;
+  margin: var(--vf-spacing-xxl) auto;
 }

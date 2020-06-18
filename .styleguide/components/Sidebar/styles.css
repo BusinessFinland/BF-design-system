@@ -6,36 +6,36 @@
   overflow-y: scroll;
 
   text-transform: capitalize;
-  background-color: var(--bf-color-brand-primary);
+  background-color: var(--vf-color-brand-primary);
   z-index: 1;
 }
 
 .bf--sidebar-category {
-  margin: var(--bf-spacing-xxl) 0;
+  margin: var(--vf-spacing-xxl) 0;
 }
 
 .bf--sidebar-link {
   display: block;
   text-decoration: none;
-  padding: var(--bf-spacing-lg) 0;
+  padding: var(--vf-spacing-lg) 0;
 
-  color: var(--bf-color-white);
+  color: var(--vf-color-white);
   background-color: transparent;
-  transition: background-color var(--bf-transition);
+  transition: background-color var(--vf-transition);
 }
 
 .bf--sidebar-title {
   font-weight: 600;
-  color: var(--bf-color-white);
-  margin-bottom: var(--bf-spacing-lg);
+  color: var(--vf-color-white);
+  margin-bottom: var(--vf-spacing-lg);
 }
 
 .bf--sidebar-title,
 .bf--sidebar-link {
-  padding-left: var(--bf-spacing-xxl);
+  padding-left: var(--vf-spacing-xxl);
 }
 
 .bf--sidebar-link_active {
-  color: var(--bf-color-white);
-  background-color: var(--bf-color-brand-primary-dark);
+  color: var(--vf-color-white);
+  background-color: var(--vf-color-brand-primary-dark);
 }

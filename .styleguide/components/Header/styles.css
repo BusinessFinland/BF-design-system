@@ -8,10 +8,10 @@
   height: 90px;
   position: fixed;
 
-  background-color: var(--bf-color-white);
-  border-bottom: 3px solid var(--bf-color-brand-primary);
+  background-color: var(--vf-color-white);
+  border-bottom: 3px solid var(--vf-color-brand-primary);
 
-  padding: 0 var(--bf-spacing-xxl);
+  padding: 0 var(--vf-spacing-xxl);
 }
 
 .bf--logo {
@@ -33,12 +33,12 @@
 }
 
 .bf--meta-version {
-  padding: 0 var(--bf-spacing-xxl);
-  color: var(--bf-color-darkgray);
+  padding: 0 var(--vf-spacing-xxl);
+  color: var(--vf-color-darkgray);
 }
 
 .bf--meta-description {
-  color: var(--bf-color-brand-primary);
-  padding: 0 var(--bf-spacing-xxl);
-  font-size: var(--bf-header-5);
+  color: var(--vf-color-brand-primary);
+  padding: 0 var(--vf-spacing-xxl);
+  font-size: var(--vf-header-5);
 }

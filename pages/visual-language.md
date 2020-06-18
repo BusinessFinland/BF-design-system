@@ -10,7 +10,7 @@ that store visual design attributes. Technically, design tokens are expressed as
   /* Colors */
 
   --bf-color-white: #ffffff;
-  --bf-color-black: #191919;
+  --bf-color-black: #404040;
 
   --bf-color-darkgray: #343a40;
   --bf-color-lightgray: #e7ebef;

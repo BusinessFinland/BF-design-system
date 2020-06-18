@@ -29,9 +29,9 @@ By using Business Finland Design System we're trying to tackle following issues 
 
 ### Process
 
-- :heavy_check_mark: First, have a quick look at the structure of this design system including component and UI element inventories and clone it to your local host as instructed in following chapter.
-- :heavy_check_mark: Second, familiarise yourself with the Business Finland Design System process described in following picture and decide whether you can re-use exiting components or if you need to create new.
-- :heavy_check_mark: Third, get access to Business Finland Design System Teams channel https://smarturl.it/BF-designSystem for getting support for your thoughts and join conversation of design related topics. If you don't have access to Teams channel, please do not hesitate to request for it by sending email to *maria.singh[at]businessfinland.fi*
+- First, have a quick look at the structure of this design system including component and UI element inventories and clone it to your local host as instructed in following chapter.
+- Second, familiarise yourself with the Business Finland Design System process described in following picture and decide whether you can re-use exiting components or if you need to create new.
+- Third, get access to Business Finland Design System Teams channel https://smarturl.it/BF-designSystem for getting support for your thoughts and join conversation of design related topics. If you don't have access to Teams channel, please do not hesitate to request for it by sending email to *maria.singh[at]businessfinland.fi*
 
 ![Image of Design System Process](assets/images/BFdesignsystemprocess2.png)
 

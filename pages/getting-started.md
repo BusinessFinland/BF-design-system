@@ -33,7 +33,7 @@ By using Business Finland Design System we're trying to tackle following issues 
 - :heavy_check_mark: Second, familiarise yourself with the Business Finland Design System process described in following picture and decide whether you can re-use exiting components or if you need to create new.
 - :heavy_check_mark: Third, get access to Business Finland Design System Teams channel https://smarturl.it/BF-designSystem for getting support for your thoughts and join conversation of design related topics. If you don't have access to Teams channel, please do not hesitate to request for it by sending email to *maria.singh[at]businessfinland.fi*
 
-![Image of Design System Process](https://github.com/BusinessFinland/BF-design-system/blob/getting-started-Janne-edits/pages/BFdesignsystemprocess2.png)
+![Image of Design System Process](assets/images/BFdesignsystemprocess2.png)
 
 ## How to use it in your own project
 

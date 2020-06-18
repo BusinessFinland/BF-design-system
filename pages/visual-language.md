@@ -33,9 +33,8 @@ that store visual design attributes. Technically, design tokens are expressed as
   --bf-font-weight-normal: 400;
   --bf-font-weight-bold: 700;
 
-  --bf-font-family-brand: Finlandica;
-  --bf-font-family-fallback: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue',
-    Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  --bf-font-family-brand: Avenir;
+  --bf-font-family-fallback: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
   --bf-line-height-base: 1.6;
   --bf-line-height-header: 1.15;

@@ -20,8 +20,8 @@ that store visual design attributes. Technically, design tokens are expressed as
   --bf-color-green: #0b7724;
   --bf-color-yellow: #ffc107;
 
-  --bf-color-brand-primary: #002da1;
-  --bf-color-brand-primary-dark: #002280;
+  --bf-color-brand-primary: #ff64a5;
+  --bf-color-brand-primary-dark: #d9558c;
 
 
   /* Typography */

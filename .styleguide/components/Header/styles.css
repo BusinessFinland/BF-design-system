@@ -15,7 +15,11 @@
 }
 
 .bf--logo {
-  width: 80px;
+/*  width: 80px; */
+}
+
+.bf--logo > a {
+  text-decoration: none;
 }
 
 .bf--img {

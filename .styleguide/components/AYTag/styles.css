@@ -19,9 +19,7 @@
 .bf--ay-tag {
   margin-right: var(--bf-spacing-lg);
   padding: var(--bf-spacing-xxs) var(--bf-spacing-xs);
-
   font-weight: 400;
-  text-transform: uppercase;
   color: var(--bf-color-white);
   background-color: var(--bf-color-green);
 }

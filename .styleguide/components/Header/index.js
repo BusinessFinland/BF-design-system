@@ -10,8 +10,8 @@ const Header = ({ version = '', description = '' }) => {
         <div className='bf--logo'>
           <NavLink to='/'>
             <div className='bf-logo bf-logo_sm'>
-              <div className='bf-logo-business'>Business</div>
-              <div className='bf-logo-finland'>Finland</div>
+              <img src="assets/images/visitfinland.png"></img>
+              <div className='bf-logo-business'>Visit Finland</div>
             </div>
           </NavLink>
         </div>

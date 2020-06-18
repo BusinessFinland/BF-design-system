@@ -30,7 +30,6 @@ h2,
 h3,
 h4,
 h5 {
-  text-transform: uppercase;
   color: var(--bf-color-brand-primary);
   line-height: var(--bf-line-height-header);
   margin: var(--bf-spacing-xxl) 0 var(--bf-spacing-xl);
@@ -127,10 +126,20 @@ h5 {
 /* Regular Logo */
 .bf-logo {
   line-height: 1.1;
-  display: inline-block;
-  text-transform: uppercase;
+  display: flex;
+  align-items: center;
   font-size: var(--bf-header-3);
-  color: var(--bf-color-brand-primary);
+  color: #73C8FF;/*var(--bf-color-brand-primary);*/
+  font-weight: 500;
+}
+
+.bf-logo > img {
+  height: 50px;
+  width: auto;
+}
+
+.bf-logo > div {
+  padding-left: 10px;
 }
 
 .bf-logo-finland {

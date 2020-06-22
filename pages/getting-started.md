@@ -41,7 +41,7 @@ You can use components styles as a project dependency via npm from the github re
 
 1. Enter the root of you project where you have your `package.json` and run
 
-   `npm install https://github.com/BusinessFinland/BF-design-system#gh-pages`
+   `npm install https://github.com/BusinessFinland/BF-design-system#visitfinland-package`
 
 2. Go to the index file of your application and import `tokens.css` and `styles.css`.
 
@@ -86,11 +86,15 @@ You can find all logic of generation HTML templates from `.md` files in `/.style
 
    `git clone https://github.com/BusinessFinland/BF-design-system`
 
-2. Install dependencies
+2. Checkout to Visit Finland branch
+
+   `git checkout visitfinland`
+
+3. Install dependencies
 
    `npm install`
 
-3. Run the styleguide
+4. Run the styleguide
 
    `npm start`
 

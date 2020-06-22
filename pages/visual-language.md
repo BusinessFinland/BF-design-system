@@ -23,6 +23,11 @@ that store visual design attributes. Technically, design tokens are expressed as
   --vf-color-brand-primary: #ff64a5;
   --vf-color-brand-primary-dark: #d9558c;
 
+  --vf-color-brand-blue: rgb(115, 200, 255);
+  --vf-color-brand-pink: rgb(255, 100, 165);
+  --vf-color-brand-orange: rgb(255, 145, 60);
+  --vf-color-brand-green: rgb(65, 185, 0);
+
 
   /* Typography */
   

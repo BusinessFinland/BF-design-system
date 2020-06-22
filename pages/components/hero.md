@@ -1,20 +1,17 @@
 # Hero
 
 ```html
-<div class="bf-hero"> 
-  <div class="bf-hero-content"> 
-    <h1 class="bf-hero-title"> 
-      Asiointipalvelu
-    </h1>
-    <div class="bf-hero-subtitle"> 
-      Hae rahoitusta ja raportoi projektisi edistymisestä
+<div class="vf-hero"> 
+    <div class="vf-hero-content"> 
+        <h1 class="vf-hero-title"> 
+            Rent a finn goes virtual
+        </h1>
+        <button class="vf-btn-hero">Read more</button>
     </div>
-    <button class="bf-btn">Regular Button</button>
-  </div>
-  <div class="bf-hero-cover"></div>
-  <picture class="bf-hero-image">
-    <source srcset="assets/images/hero.jpg">
-    <img alt="Man in front of a laptop" src="assets/images/hero.jpg">
-  </picture>
+    <div class="vf-hero-cover"></div>
+    <picture class="vf-hero-image">
+        <source srcset="assets/images/hero.jpg">
+        <img alt="" src="assets/images/hero.jpg">
+    </picture>
 </div>
 ```

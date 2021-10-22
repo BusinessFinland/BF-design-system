@@ -5,4 +5,8 @@
 [All Business Finland Icons](/images/logo.png)
 Format: [Alt Text](url)
 
+
+[icon](/images/BF-First-Icons_2020.png)
+Format: [Alt Text](https://github.com/lianadalia/BF-design-system/blob/patch-1/assets/images/BF-First-Icons_2020.png?raw=true)
+
 # [Download BF Icons (in AI format)](https://github.com/lianadalia/BF-design-system/blob/patch-1/assets/images/BF-Icons_2020-ALL.ai?raw=true)

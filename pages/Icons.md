@@ -19,30 +19,34 @@ An icon and its related content or label should have the same meaning. Conflicti
 The colour contrast between the icon and its background must comply with [AA Level contrast ratios.](https://www.w3.org/TR/WCAG21/#contrast-minimum)
 
 
-
-
-#### Size and use
+#### Size and Use
 If icons are used in conjunction with text, the size of the text determines the size of the icon.
 
-#### Usage
+#### Example Code Sizing
 
 ```html
-<i class="hds-icon hds-icon--BF-First-Icons_2020" aria-hidden="true"></i>
+[](/images/BF-First-Icons_2020.png)
+```
+```html
+
+<img src="/images/BF-First-Icons_2020.png" alt="icon" width="200"/>
+<img src="/images/BF-First-Icons_2020.png" alt="icon" width="150"/>
+<img src="/images/BF-First-Icons_2020.png" alt="icon" width="100"/>
+<img src="/images/BF-First-Icons_2020.png" alt="icon" width="70"/>
+<img src="/images/BF-First-Icons_2020.png" alt="icon" width="50"/>
+<img src="/images/BF-First-Icons_2020.png" alt="icon" width="30"/>
 ```
 
-```html
-<BF-First-Icons_2020 aria-hidden="true" />
-<BF-First-Icons_2020 aria-hidden="true" />
-```
-```html
-<BF-First-Icons_2020 size="xs" aria-hidden="true" />
-<BF-First-Icons_2020 size="s" aria-hidden="true" />
-<BF-First-Icons_2020 size="m" aria-hidden="true" />
-<BF-First-Icons_2020 size="l" aria-hidden="true" />
-<BF-First-Icons_2020 size="xl" aria-hidden="true" />
-```
 
 [](/images/BF-First-Icons_2020.png)
- ![Alt Text](https://github.com/lianadalia/BF-design-system/blob/patch-1/assets/images/BF-First-Icons_2020.png?raw=true)
+<img src="https://github.com/lianadalia/BF-design-system/blob/patch-1/assets/images/BF-First-Icons_2020.png?raw=true" alt="icon" width="200"/>
+<img src="https://github.com/lianadalia/BF-design-system/blob/patch-1/assets/images/BF-First-Icons_2020.png?raw=true" alt="icon" width="150"/>
+<img src="https://github.com/lianadalia/BF-design-system/blob/patch-1/assets/images/BF-First-Icons_2020.png?raw=true" alt="icon" width="100"/>
+<img src="https://github.com/lianadalia/BF-design-system/blob/patch-1/assets/images/BF-First-Icons_2020.png?raw=true" alt="icon" width="70"/>
+<img src="https://github.com/lianadalia/BF-design-system/blob/patch-1/assets/images/BF-First-Icons_2020.png?raw=true" alt="icon" width="50"/>
+<img src="https://github.com/lianadalia/BF-design-system/blob/patch-1/assets/images/BF-First-Icons_2020.png?raw=true" alt="icon" width="30"/>
+
+
+
 
 # [Download BF Icons (in AI format)](https://github.com/lianadalia/BF-design-system/blob/patch-1/assets/images/BF-Icons_2020-ALL.ai?raw=true)

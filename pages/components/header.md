@@ -18,7 +18,8 @@
     <div class="bf-header-body-right">
       <div class="bf-header-body-links">
         <a href="#" class="bf-link">Do business with Finland</a> 
-        <a href="#" class="bf-link">Asiointipalvelu</a>
+        <a href="#" class="bf-link">Kirjaudu</a>
+        <a href="#" class="bf-link">Rekisteröidy</a>
       </div>
       <div class="bf-header-locale">
         <div class="bf-locale">FI</div>

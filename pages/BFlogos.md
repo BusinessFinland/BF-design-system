@@ -1,6 +1,10 @@
 # Business Finland logos
 
-#### Finland as a country has its own visual image and identity. Business Finland’s logo is based on the typography and color scheme of the Finland brand. In all other respects, Business Finland has its own visual identity which is not bound by the rules of the country brand policy. The Business Finland brand is used to advertise Business Finland’s services, achievements and impact. The brand is also used in international contexts when Business Finland is the organization representing the country.
+- Finland as a country has its own visual image and identity.
+- Business Finland’s logo is based on the typography and color scheme of the Finland brand. 
+- In all other respects, Business Finland has its own visual identity which is not bound by the rules of the country brand policy.
+-  The Business Finland brand is used to advertise Business Finland’s services, achievements and impact. 
+-  The brand is also used in international contexts when Business Finland is the organization representing the country.
 
 ###### Right click the link below, which will open a new tab will open specific Business Finland logo color
 
